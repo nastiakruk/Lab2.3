@@ -15,6 +15,8 @@ namespace Purse3
             asd.GetSumCreditCard();
             BusinessCard.BusinessCard qwe = new BusinessCard.BusinessCard("asd");
             Console.WriteLine(qwe.FindOutWhose());
+            Lipstick.Lipstick abc = new Lipstick.Lipstick(true);
+            Console.WriteLine(abc.CheckExistance());
         }
     }
 }
