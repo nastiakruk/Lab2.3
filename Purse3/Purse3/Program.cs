@@ -9,6 +9,8 @@ namespace Purse3
     {
         static void Main(string[] args)
         {
+            CreditCard.CreditCard asd = new CreditCard.CreditCard(123);
+            asd.GetSumCreditCard();
         }
     }
 }
