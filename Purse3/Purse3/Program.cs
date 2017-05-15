@@ -9,6 +9,8 @@ namespace Purse3
     {
         static void Main(string[] args)
         {
+            BusinessCard.BusinessCard qwe = new BusinessCard.BusinessCard("asd");
+            Console.WriteLine(qwe.FindOutWhose());
         }
     }
 }
