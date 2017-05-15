@@ -11,6 +11,8 @@ namespace Purse3
         {
             Money.Money money = new Money.Money(500);
             money.GetMoney();
+            CreditCard.CreditCard asd = new CreditCard.CreditCard(123);
+            asd.GetSumCreditCard();
         }
     }
 }
