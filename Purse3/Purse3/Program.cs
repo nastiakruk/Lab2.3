@@ -13,6 +13,8 @@ namespace Purse3
             money.GetMoney();
             CreditCard.CreditCard asd = new CreditCard.CreditCard(123);
             asd.GetSumCreditCard();
+            BusinessCard.BusinessCard qwe = new BusinessCard.BusinessCard("asd");
+            Console.WriteLine(qwe.FindOutWhose());
         }
     }
 }
