@@ -9,6 +9,8 @@ namespace Purse3
     {
         static void Main(string[] args)
         {
+            Lipstick.Lipstick abc = new Lipstick.Lipstick(true);
+            Console.WriteLine(abc.CheckExistance());
         }
     }
 }
