@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CreditCard
+namespace BusinessCard
 {
-    public class CreditCard
+    public class BusinessCard
     {
-        public decimal amount = 0;
-        private string msg = "Mennyi penzed van? Szeretlek ";
-
-        public string GetSumCreditCard()
+        public string name = "";
+        public BusinessCard(string name)
         {
-            return msg + amount.ToString();
+            this.name = name;
         }
-
-        public CreditCard(decimal amount)
+        public string FindOutWhose()
         {
-            this.amount = amount;
+            return name + "'s business card";
         }
     }
 }
