@@ -5,10 +5,12 @@ using System.Text;
 
 namespace Purse3
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Money.Money money = new Money.Money(500);
+            money.GetMoney();
         }
     }
 }
