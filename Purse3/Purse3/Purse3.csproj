@@ -44,6 +44,24 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessCard\BusinessCard.csproj">
+      <Project>{170c5c4a-20f0-49ef-9a20-d6239176c643}</Project>
+      <Name>BusinessCard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CreditCard\CreditCard.csproj">
+      <Project>{d840e636-16cd-4297-8b25-e84de03b845c}</Project>
+      <Name>CreditCard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lipstick\Lipstick.csproj">
+      <Project>{56abd33c-f82e-4085-8c37-96e189b0ade4}</Project>
+      <Name>Lipstick</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Money\Money.csproj">
+      <Project>{17d41882-e212-4177-9fc4-7fa7407ca645}</Project>
+      <Name>Money</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
