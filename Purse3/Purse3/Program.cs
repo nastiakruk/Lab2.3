@@ -17,6 +17,8 @@ namespace Purse3
             Console.WriteLine(qwe.FindOutWhose());
             Lipstick.Lipstick abc = new Lipstick.Lipstick(true);
             Console.WriteLine(abc.CheckExistance());
+            Money.Money geld = new Money.Money(700);
+            geld.GetMoney();
         }
     }
 }
